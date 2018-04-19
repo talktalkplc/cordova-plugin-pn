@@ -1,12 +1,12 @@
 import Foundation
 
-@objc(LPMessagingSDKPlugin) class LPMessagingSDKPlugin: CDVPlugin {
+@objc(CordovaPushNotificationPlugin) class CordovaPushNotificationPlugin: CDVPlugin {
 
 
 
     // Prepare a callback to trigger a response to the JS consumer when native commands have finished
-    func prepareCallback(_ from: CDVInvokedUrlCommand) -> LPCordovaCallback {
-        return LPCordovaCallback(delegate: commandDelegate, command: from)
+    func prepareCallback(_ from: CDVInvokedUrlCommand) -> PNCordovaCallback {
+        return PNCordovaCallback(delegate: commandDelegate, command: from)
     }
     
     // Native fetching of push tokens

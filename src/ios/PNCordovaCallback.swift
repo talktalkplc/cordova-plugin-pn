@@ -1,4 +1,4 @@
-class LPCordovaCallback {
+class PNCordovaCallback {
 
     let delegate: CDVCommandDelegate
     let command: CDVInvokedUrlCommand?
