@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-push-notification-token" version="2.3.17">
 
-  <name>pnMessagingSDK</name>
+  <name>CordovaPushNotificationPlugin</name>
 
-  <engines>
+  <!-- <engines>
     <engine name="cordova" version=">=3.4.0" />
-  </engines>
+  </engines> -->
 
   <asset src="www/PushNotificationToken.js" target="js/PushNotificationToken.js" />
   <asset src="www/PushNotificationToken.js.map" target="js/PushNotificationToken.js.map" />

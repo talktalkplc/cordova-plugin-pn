@@ -2,7 +2,7 @@
 import { exec } from 'cordova';
 
 /** The LivePerson Messaging SDK service name (targeted by Cordova). */
-const lpSdkService = 'PNMessagingSDK';
+const lpSdkService = 'CordovaPushNotification';
 
 //#region Type
 

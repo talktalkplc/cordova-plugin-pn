@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 /** The LivePerson Messaging SDK service name (targeted by Cordova). */
-var lpSdkService = 'LPMessagingSDK';
+var lpSdkService = 'CordovaPushNotification';
 //#endregion Types
 //#region Helpers
 /**
